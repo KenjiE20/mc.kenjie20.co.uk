@@ -1,0 +1,13 @@
+.mc-status {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 16px;
+}
+.mc-icon img {
+    float: left;
+    margin: 16px;
+}
+.mc-player img {
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
