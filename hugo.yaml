@@ -7,4 +7,6 @@ module:
   - path: github.com/theNewDynamic/gohugo-theme-ananke/v2
 
 params:
+  body_classes: "bg-near-black sans-serif"
+  text_color: "silver"
   custom_css: ['mc-status.css']

@@ -1,7 +1,9 @@
 .mc-status {
+    background-color: #333;
     text-align: left;
     margin-bottom: 10px;
     padding: 16px;
+    border-radius: 8px;
 }
 .mc-icon img {
     float: left;
