@@ -31,6 +31,9 @@ jobs:
       - name: Hugo build
         run: hugo --cleanDestinationDir --gc --minify
 
+      - name: Clean hanging theme image
+        run: rm -vd public/images/gohugo-default-sample-hero-image.jpg
+
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
