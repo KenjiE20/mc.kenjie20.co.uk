@@ -49,9 +49,9 @@ jobs:
           # -r: copy files recursively
           # --delete: delete extraneous files from dest dirs
           # --dry-run: perform a trial run with no changes made
-          switches: -vhzr --delete --dry-run
+          switches: -vhzr --delete #--dry-run
           path: ./public
           remote_path: ~/nginx/www/
-          remote_host: minecraft.kenjie20.co.uk
+          remote_host: mc.kenjie20.co.uk
           remote_user: ubuntu
           remote_key: ${{ secrets.DEPLOY_KEY }}
