@@ -39,3 +39,19 @@ jobs:
         with:
           path: ./public
           retention-days: 5
+          
+      - name: Rsync Deploy
+        uses: burnett01/rsync-deployments@7.0.2
+        with:
+          # -v: verbose
+          # -h: output numbers in a human-readable format
+          # -z: compress files during transfer
+          # -r: copy files recursively
+          # --delete: delete extraneous files from dest dirs
+          # --dry-run: perform a trial run with no changes made
+          switches: -vhzr --delete --dry-run
+          path: ./public
+          remote_path: ~/nginx/www/
+          remote_host: minecraft.kenjie20.co.uk
+          remote_user: ubuntu
+          remote_key: ${{ secrets.DEPLOY_KEY }}
