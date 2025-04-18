@@ -1,8 +1,7 @@
 ---
 date: '2025-04-01T16:33:50Z'
-draft: false
-title: 'Minecraft Servers'
+description: Current Minecraft Stats
+cascade:
+  featured_image: '/images/bugsvista.png'
 ---
-## Current Minecraft Stats
-{{< mc-status ip="grmpixelmon.com" >}}
 {{< mc-status ip="minecraft.kenjie20.co.uk" >}}
