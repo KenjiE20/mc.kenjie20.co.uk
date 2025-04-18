@@ -50,7 +50,7 @@ jobs:
           # --delete: delete extraneous files from dest dirs
           # --dry-run: perform a trial run with no changes made
           switches: -vhzr --delete #--dry-run
-          path: ./public
+          path: ./public/
           remote_path: ~/nginx/www/
           remote_host: mc.kenjie20.co.uk
           remote_user: ubuntu
