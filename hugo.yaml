@@ -10,3 +10,4 @@ params:
   body_classes: "bg-near-black sans-serif"
   text_color: "silver"
   custom_css: ['mc-status.css']
+  favicon: images/favicon-32.png
