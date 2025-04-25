@@ -4,4 +4,4 @@ description: Current Minecraft Stats
 cascade:
   featured_image: '/images/bugsvista.webp'
 ---
-{{< mc-status ip="minecraft.kenjie20.co.uk" >}}
+{{< mc-status ip="mc.kenjie20.co.uk" >}}
