@@ -1,6 +1,5 @@
 ---
 date: '2025-04-20'
-draft: true
 title: 'Bingo'
 description: 'Minecraft Bingo, using Fetchr'
 read_more_copy: 'Details'
