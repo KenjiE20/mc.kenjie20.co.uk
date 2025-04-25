@@ -2,6 +2,8 @@ baseURL: https://mc.kenjie20.co.uk/
 languageCode: en-us
 title: KenjiE20's Game Servers
 
+enableEmoji: true
+
 module:
   imports:
   - path: github.com/theNewDynamic/gohugo-theme-ananke/v2
