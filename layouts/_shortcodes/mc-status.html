@@ -11,5 +11,5 @@
 </div>
 
 {{ with resources.Get "js/mc-status.js" }}
-<script src="{{ .RelPermalink }}" ip="{{ $.Get "ip" }}" index="{{ $.Ordinal }}" async></script>
+<script src="{{ .RelPermalink }}" ip="{{ $.Get "ip" }}" index="{{ $.Ordinal }}" use_ip="{{ $.Get "use_ip" }}" async></script>
 {{ end }}

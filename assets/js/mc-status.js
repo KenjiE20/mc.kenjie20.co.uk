@@ -3,6 +3,7 @@ async function checkServerStatus() {
   try {
     var serverIP = document.currentScript.getAttribute('ip');
     var htmlindex = document.currentScript.getAttribute('index');
+    var use_ip = document.currentScript.getAttribute('use_ip');
     const response = await fetch(`https://api.mcsrvstat.us/3/${serverIP}`);
     const data = await response.json();
     
@@ -11,7 +12,12 @@ async function checkServerStatus() {
     if (data.online) {
       document.getElementById(`mc-icon-${htmlindex}`).innerHTML = `<img src="${data.icon}" width="64px" height="64px" alt="Server Icon"/>`;
       document.getElementById(`mc-online-${htmlindex}`).innerHTML = `Server is <span style="color:green;">Online</span>`;
-      document.getElementById(`mc-hostname-${htmlindex}`).innerHTML = `${data.hostname}`;
+      if (use_ip) {
+        document.getElementById(`mc-hostname-${htmlindex}`).innerHTML = `${serverIP}`;
+      }
+      else { 
+        document.getElementById(`mc-hostname-${htmlindex}`).innerHTML = `${data.hostname}`;
+      }
       document.getElementById(`mc-players-${htmlindex}`).innerHTML = `Players: ${data.players.online}/${data.players.max}`;
       document.getElementById(`mc-version-${htmlindex}`).innerHTML = `Version: ${data.version}`;
       document.getElementById(`mc-motd-${htmlindex}`).innerHTML = `Server MOTD:<br>${data.motd.html.join('<br>')}`;
