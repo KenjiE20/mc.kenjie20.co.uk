@@ -1,6 +1,5 @@
 ---
 date: '2025-04-18'
-draft: true
 title: 'BCG+'
 description: 'BigChadGuys Plus'
 read_more_copy: 'Details'
