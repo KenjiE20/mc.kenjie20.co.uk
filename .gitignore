@@ -19,3 +19,6 @@ hugo.linux
 *.jpg@SynoEAStream
 #SynoResource*
 .SynoResource
+
+# Other system generated stuff
+Thumbs.db
