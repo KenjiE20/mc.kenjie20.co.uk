@@ -12,6 +12,11 @@ params:
   body_classes: "bg-near-black sans-serif silver"
   post_content_classes: "bg-dark-gray"
   text_color: "near-white"
+
+  list_dark_bg: "bg-dark-gray"
+  summary_dark_bg: "bg-dark-gray"
+  summary_more_bg: "bg-dark-gray"
+  summary_more_hover: "hover-bg-light-gray hover-near-black"
   
   mainSections: ""
   custom_css: ['mc-status.css']
