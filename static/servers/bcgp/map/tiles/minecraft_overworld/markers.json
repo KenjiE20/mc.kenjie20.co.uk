@@ -76,7 +76,7 @@
     {
         "hide": false,
         "z_index": 98,
-        "name": "Train Line (northern)",
+        "name": "Train Line (Northern)",
         "control": true,
         "id": "squaremap-line",
         "markers": [
@@ -187,7 +187,7 @@
     {
         "hide": false,
         "z_index": 97,
-        "name": "Train Line (lumber)",
+        "name": "Train Line (Lumber)",
         "control": true,
         "id": "squaremap-line2",
         "markers": [
