@@ -59,6 +59,15 @@
                 "icon": "squaremarker_marker_icon_",
                 "type": "icon",
                 "point": { "z": -135, "x": -530 }
+            },
+            {
+                "tooltip_anchor": { "z": -8, "x": 0 },
+                "size": { "z": 16, "x": 16 },
+                "anchor": { "z": 8, "x": 8 },
+                "tooltip": "Trainyard",
+                "icon": "squaremarker_marker_icon_",
+                "type": "icon",
+                "point": { "z": 25, "x": -570 }
             }
         ],
         "order": 99,
