@@ -50,6 +50,15 @@
                 "icon": "squaremarker_marker_icon_",
                 "type": "icon",
                 "point": { "z": -660, "x": 235 }
+            },
+            {
+                "tooltip_anchor": { "z": -8, "x": 0 },
+                "size": { "z": 16, "x": 16 },
+                "anchor": { "z": 8, "x": 8 },
+                "tooltip": "Spike's Base",
+                "icon": "squaremarker_marker_icon_",
+                "type": "icon",
+                "point": { "z": -135, "x": -530 }
             }
         ],
         "order": 99,
