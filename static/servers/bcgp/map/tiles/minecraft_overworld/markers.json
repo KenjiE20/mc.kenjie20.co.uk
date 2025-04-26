@@ -32,6 +32,15 @@
                 "icon": "squaremarker_marker_icon_",
                 "type": "icon",
                 "point": { "z": -2015, "x": 391 }
+            },
+            {
+                "tooltip_anchor": { "z": -8, "x": 0 },
+                "size": { "z": 16, "x": 16 },
+                "anchor": { "z": 8, "x": 8 },
+                "tooltip": "Ipsees' Bugs Life",
+                "icon": "squaremarker_marker_icon_",
+                "type": "icon",
+                "point": { "z": 730, "x": -1155 }
             }
         ],
         "order": 99,
