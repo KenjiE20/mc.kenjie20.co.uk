@@ -1,7 +1,7 @@
 [
     {
         "hide": false,
-        "z_index": 99,
+        "z_index": 50,
         "name": "POIs",
         "control": true,
         "id": "squaremarker_marker",
@@ -70,12 +70,12 @@
                 "point": { "z": 25, "x": -570 }
             }
         ],
-        "order": 99,
+        "order": 50,
         "timestamp": 1745145978600
     },
     {
         "hide": false,
-        "z_index": 98,
+        "z_index": 97,
         "name": "Train Line (Northern)",
         "control": true,
         "id": "squaremap-line",
@@ -181,12 +181,12 @@
                 ]
             }
         ],
-        "order": 98,
+        "order": 97,
         "timestamp": 1745145978600
     },
     {
         "hide": false,
-        "z_index": 97,
+        "z_index": 98,
         "name": "Train Line (Lumber)",
         "control": true,
         "id": "squaremap-line2",
@@ -232,12 +232,12 @@
                 ]
             }
         ],
-        "order": 97,
+        "order": 98,
         "timestamp": 1745145978600
     },
     {
         "hide": false,
-        "z_index": 96,
+        "z_index": 99,
         "name": "Train Line (Eastern)",
         "control": true,
         "id": "squaremap-line3",
@@ -265,7 +265,7 @@
                 ]
             }
         ],
-        "order": 96,
+        "order": 99,
         "timestamp": 1745145978600
     },
     {
