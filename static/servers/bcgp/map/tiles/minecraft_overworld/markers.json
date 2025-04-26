@@ -2,7 +2,7 @@
     {
         "hide": false,
         "z_index": 99,
-        "name": "Marker",
+        "name": "POIs",
         "control": true,
         "id": "squaremarker_marker",
         "markers": [
