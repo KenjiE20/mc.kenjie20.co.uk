@@ -10,7 +10,7 @@
                 "tooltip_anchor": { "z": -8, "x": 0 },
                 "size": { "z": 16, "x": 16 },
                 "anchor": { "z": 8, "x": 8 },
-                "tooltip": "\u003ccenter\u003eKenjiE20\u0027s Farm\u003c/center\u003e",
+                "tooltip": "KenjiE20's Farm",
                 "icon": "squaremarker_marker_icon_",
                 "type": "icon",
                 "point": { "z": -357, "x": -514 }
@@ -19,7 +19,7 @@
                 "tooltip_anchor": { "z": -8, "x": 0 },
                 "size": { "z": 16, "x": 16 },
                 "anchor": { "z": 8, "x": 8 },
-                "tooltip": "\u003ccenter\u003eLumberyard\u003c/center\u003e",
+                "tooltip": "Lumberyard",
                 "icon": "squaremarker_marker_icon_",
                 "type": "icon",
                 "point": { "z": -1497, "x": -503 }
@@ -28,7 +28,7 @@
                 "tooltip_anchor": { "z": -8, "x": 0 },
                 "size": { "z": 16, "x": 16 },
                 "anchor": { "z": 8, "x": 8 },
-                "tooltip": "\u003ccenter\u003eFactory\u003c/center\u003e",
+                "tooltip": "Factory",
                 "icon": "squaremarker_marker_icon_",
                 "type": "icon",
                 "point": { "z": -2015, "x": 391 }
