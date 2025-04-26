@@ -81,7 +81,7 @@
         "id": "squaremap-line",
         "markers": [
             {
-                "color": "#ff0000",
+                "color": "#d6002f",
                 "tooltip": "Northern Line",
                 "type": "polyline",
                 "points": [
@@ -157,7 +157,7 @@
                 ]
             },
             {
-                "color": "#ff0000",
+                "color": "#d6002f",
                 "tooltip": "Northern Line",
                 "type": "polyline",
                 "points": [
