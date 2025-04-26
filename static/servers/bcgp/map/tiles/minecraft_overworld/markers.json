@@ -41,6 +41,15 @@
                 "icon": "squaremarker_marker_icon_",
                 "type": "icon",
                 "point": { "z": 730, "x": -1155 }
+            },
+            {
+                "tooltip_anchor": { "z": -8, "x": 0 },
+                "size": { "z": 16, "x": 16 },
+                "anchor": { "z": 8, "x": 8 },
+                "tooltip": "figure's Gym",
+                "icon": "squaremarker_marker_icon_",
+                "type": "icon",
+                "point": { "z": -660, "x": 235 }
             }
         ],
         "order": 99,
