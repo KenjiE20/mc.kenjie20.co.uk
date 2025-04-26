@@ -68,13 +68,22 @@
                 "icon": "squaremarker_marker_icon_",
                 "type": "icon",
                 "point": { "z": 25, "x": -570 }
+            },
+            {
+                "tooltip_anchor": { "z": -8, "x": 0 },
+                "size": { "z": 16, "x": 16 },
+                "anchor": { "z": 8, "x": 8 },
+                "tooltip": "Sierra's Base",
+                "icon": "squaremarker_marker_icon_",
+                "type": "icon",
+                "point": { "z": -258, "x": 750 }
             }
         ],
         "order": 50,
         "timestamp": 1745145978600
     },
     {
-        "hide": false,
+        "hide": true,
         "z_index": 97,
         "name": "Train Line (Northern)",
         "control": true,
@@ -185,7 +194,7 @@
         "timestamp": 1745145978600
     },
     {
-        "hide": false,
+        "hide": true,
         "z_index": 98,
         "name": "Train Line (Lumber)",
         "control": true,
@@ -236,7 +245,7 @@
         "timestamp": 1745145978600
     },
     {
-        "hide": false,
+        "hide": true,
         "z_index": 99,
         "name": "Train Line (Eastern)",
         "control": true,
