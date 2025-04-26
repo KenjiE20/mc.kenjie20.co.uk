@@ -10,7 +10,7 @@ featured_image: '/images/pokecenter.png'
 * State: Finished
 * Modpack: [Big Chad Guys Plus](https://www.curseforge.com/minecraft/modpacks/bcg)
 * Version: [2.11.0](https://www.curseforge.com/minecraft/modpacks/bcg/files/5904017)
-* World Map: Link
+* World Map: [Link](/servers/bcgp/map)
 * World Save: [Final save](https://mega.nz/folder/TQ1GhQTS#y4F9SCrFPp8iiXXvPXBfGA) as of 2025-04-18
 * Notes:
   * Contains some extra music in a custom resource file
