@@ -12,3 +12,4 @@ read_more_copy: 'Details'
   * Minecraft: 1.21.4
 * Notes:
   * KeepInventory is enabled
+  * Server auto resets overnight
