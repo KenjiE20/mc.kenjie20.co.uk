@@ -3,7 +3,7 @@ date: '2025-04-18'
 title: 'BCG+'
 description: 'BigChadGuys Plus'
 read_more_copy: 'Details'
-featured_image: '/images/pokecenter.png'
+featured_image: '/images/pokecenter.webp'
 ---
 :sparkles: Think Stardew Valley with Pokémon! :sparkles:
 <!--more-->
