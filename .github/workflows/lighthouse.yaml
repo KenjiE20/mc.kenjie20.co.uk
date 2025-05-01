@@ -25,7 +25,7 @@ jobs:
       #  run: git submodule update --init --recursive
 
       - name: Hugo build
-        run: hugo --cleanDestinationDir --gc --minify  --baseURL http://localhost/
+        run: hugo --cleanDestinationDir --gc --minify
 
       - name: Clean hanging theme image
         run: rm -vd public/images/gohugo-default-sample-hero-image.jpg
