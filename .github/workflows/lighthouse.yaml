@@ -3,7 +3,7 @@ name: Run built website against lighthouse
 on: [push, pull_request]
 
 jobs:
-  build-and-deploy:
+  lighthouse:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
