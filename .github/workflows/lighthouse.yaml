@@ -3,8 +3,9 @@ name: Run built website against lighthouse
 on: [push, pull_request]
 
 jobs:
-  lighthouse:
+  build:
     uses: ./.github/workflows/build.yaml
+  lighthouse:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
