@@ -20,6 +20,8 @@ runs:
 
     - name: Hugo build
       run: hugo --cleanDestinationDir --gc --minify
+      shell: bash
 
     - name: Clean hanging theme image
       run: rm -vd public/images/gohugo-default-sample-hero-image.jpg
+      shell: bash
