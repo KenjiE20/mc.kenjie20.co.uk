@@ -14,6 +14,8 @@ jobs:
 
       - name: Download Hugo Build Artifact
         uses: actions/download-artifact@v3
+        with:
+          name: hugo_build
 
       - name: Run Lighthouse CI
         uses: treosh/lighthouse-ci-action@v12
