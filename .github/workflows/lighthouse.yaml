@@ -3,14 +3,15 @@ name: Run built website against lighthouse
 on: [push, pull_request]
 
 jobs:
+  hugo-build:
+    uses: ./.github/workflows/build.yaml
+
   lighthouse:
+    needs: hugo-build
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-
-      - name: Build
-        uses: ./.github/workflows/build.yaml
 
       - name: Download Hugo Build Artifact
         uses: actions/download-artifact@v3
