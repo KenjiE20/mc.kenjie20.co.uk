@@ -76,5 +76,6 @@ jobs:
             https://mc.kenjie20.co.uk/servers/
           uploadArtifacts: true
           temporaryPublicStorage: true
+          runs: 3
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
