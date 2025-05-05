@@ -55,3 +55,18 @@ jobs:
           remote_host: mc.kenjie20.co.uk
           remote_user: ubuntu
           remote_key: ${{ secrets.DEPLOY_KEY }}
+
+  lighthouse:
+    runs-on: ubuntu-latest
+    needs: build-and-deploy
+    steps:
+      - name: Run Lighthouse CI against deployed site
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          urls: |
+            https://mc.kenjie20.co.uk
+            https://mc.kenjie20.co.uk/servers/
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
