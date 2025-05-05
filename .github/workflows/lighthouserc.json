@@ -3,7 +3,7 @@
         "collect": {
             "staticDistDir": "./public",
             "settings": {
-              "emulatedFormFactor": "desktop"
+                "preset": "desktop"
             }
         }
     }
