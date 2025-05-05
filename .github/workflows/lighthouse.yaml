@@ -5,6 +5,8 @@ on:
     branches-ignore:
       - main
   pull_request:
+    branches-ignore:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -38,7 +40,7 @@ jobs:
       - name: Run Lighthouse CI
         uses: treosh/lighthouse-ci-action@v12
         with:
-          configPath: ".github/workflows/lighthouserc.json"
+          configPath: ".github/workflows/lighthouserc-test.json"
           uploadArtifacts: true
           temporaryPublicStorage: true
         env:

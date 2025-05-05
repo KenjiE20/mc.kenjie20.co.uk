@@ -1,0 +1,11 @@
+{
+    "ci": {
+        "collect": {
+            "staticDistDir": "./public",
+            "settings": {
+                "preset": "desktop",
+                "skipAudits": ["is-on-https"]
+            }
+        }
+    }
+}
