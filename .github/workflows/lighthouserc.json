@@ -1,5 +1,8 @@
 {
     "ci": {
+        "assert": {
+            "preset": "lighthouse:desktop"
+        },
         "collect": {
             "staticDistDir": "./public"
         }
