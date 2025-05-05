@@ -1,6 +1,7 @@
 name: Deploy Hugo build to Server
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main  # Set a branch to deploy
