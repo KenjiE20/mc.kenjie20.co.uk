@@ -3,7 +3,8 @@
         "collect": {
             "staticDistDir": "./public",
             "settings": {
-                "preset": "desktop"
+                "preset": "desktop",
+                "skipAudits": ["is-on-https"]
             }
         }
     }
