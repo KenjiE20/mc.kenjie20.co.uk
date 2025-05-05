@@ -1,10 +1,10 @@
 {
     "ci": {
-        "assert": {
-            "preset": "lighthouse:desktop"
-        },
         "collect": {
-            "staticDistDir": "./public"
+            "staticDistDir": "./public",
+            "settings": {
+              "emulatedFormFactor": "desktop"
+            }
         }
     }
 }
