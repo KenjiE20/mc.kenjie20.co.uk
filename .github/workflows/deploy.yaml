@@ -74,6 +74,7 @@ jobs:
           urls: |
             https://mc.kenjie20.co.uk
             https://mc.kenjie20.co.uk/servers/
+            https://mc.kenjie20.co.uk/servers/bcgp/
           uploadArtifacts: true
           temporaryPublicStorage: true
           runs: 3
