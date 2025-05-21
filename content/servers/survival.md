@@ -39,6 +39,6 @@ read_more_copy: 'Details'
     * track raw statistics
     * durability ping[^1]
     * afk display
-  * Descriptions and info visible in the advancements window (`L`)
+  * Descriptions, info and commands visible in the advancements window (`L`)
 
 [^1]: Has config elements
