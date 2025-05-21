@@ -2,10 +2,10 @@
 date: '2025-05-15T21:02:51Z'
 draft: true
 title: 'Survival'
-description: 'Long-term Mostly Vanilla SMP'
+description: 'Long-term HermitCraft inspired SMP'
 read_more_copy: 'Details'
 ---
-:crossed_swords: Creative build server :pick:
+:crossed_swords: A HermitCraft inspired, mostly vanilla SMP :pick:
 <!--more-->
 {{< mc-status ip="survival.mc.kenjie20.co.uk" use_ip="true" >}}
 
