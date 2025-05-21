@@ -22,6 +22,7 @@ read_more_copy: 'Details'
   * [No Chat Reports](https://modrinth.com/mod/qQyHxfxd)
   * [Peek](https://modrinth.com/mod/TnOXNf5e)
 * Has a variety of [Vanilla Tweaks](https://vanillatweaks.net) datapacks to further enhance things;
+  * Descriptions, info and commands visible in the advancements window (`L`)
   * Decorative-cosmetic
     * silence mobs
     * player head drops
@@ -39,6 +40,5 @@ read_more_copy: 'Details'
     * track raw statistics
     * durability ping[^1]
     * afk display
-  * Descriptions, info and commands visible in the advancements window (`L`)
 
 [^1]: Has config elements
