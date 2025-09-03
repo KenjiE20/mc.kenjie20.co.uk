@@ -42,7 +42,7 @@ jobs:
           retention-days: 5
           
       - name: Rsync Deploy
-        uses: burnett01/rsync-deployments@7.0.2
+        uses: burnett01/rsync-deployments@7.1.0
         with:
           # -v: verbose
           # -h: output numbers in a human-readable format
