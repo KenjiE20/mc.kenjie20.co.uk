@@ -7,7 +7,7 @@ read_more_copy: 'Details'
 ---
 :crossed_swords: A HermitCraft inspired, mostly vanilla SMP :pick:
 <!--more-->
-{{< mc-status ip="survival.mc.kenjie20.co.uk" use_ip="true" >}}
+{{< mc-status ip="smp.mc.kenjie20.co.uk" use_ip="true" >}}
 
 * Version: 1.21.5
 * Can be joined with a Vanilla client, but having some client-side extra mods is _highly_ recommended.
