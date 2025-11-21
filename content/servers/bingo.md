@@ -8,8 +8,8 @@ read_more_copy: 'Details'
 <!--more-->
 {{< mc-status ip="bingo.mc.kenjie20.co.uk" use_ip="true" >}}
 * Version:
-  * Fetchr 5.2.2
-  * Minecraft: 1.21.4
+  * Fetchr 5.3 Beta 5
+  * Minecraft: 1.21.10
 * Notes:
   * KeepInventory is enabled
   * Server auto resets overnight
