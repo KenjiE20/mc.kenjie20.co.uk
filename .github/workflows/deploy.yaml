@@ -35,7 +35,7 @@ jobs:
         run: rm -vd public/images/gohugo-default-sample-hero-image.jpg
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: hugo-build
           path: ./public
