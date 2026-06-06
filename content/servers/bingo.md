@@ -9,7 +9,7 @@ read_more_copy: 'Details'
 {{< mc-status ip="bingo.mc.kenjie20.co.uk" use_ip="true" >}}
 
 * Version:
-  * Fetchr 5.3
+  * Fetchr 5.3.1
   * Minecraft: 1.21.10
 * Notes:
   * KeepInventory is enabled
