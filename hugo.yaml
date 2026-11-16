@@ -6,7 +6,7 @@ enableEmoji: true
 
 module:
   imports:
-  - path: github.com/theNewDynamic/gohugo-theme-ananke/v2
+  - path: github.com/gohugo-ananke/ananke/v2
 
 params:
   body_classes: "bg-near-black sans-serif silver"
@@ -19,5 +19,6 @@ params:
   summary_more_hover: "hover-bg-light-gray hover-near-black"
   
   mainSections: ""
-  custom_css: ['mc-status.css']
+  ananke:
+    custom_css: ['mc-status.css']
   favicon: images/favicon-32.png
