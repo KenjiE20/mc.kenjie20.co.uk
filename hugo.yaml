@@ -1,5 +1,5 @@
 baseURL: https://mc.kenjie20.co.uk/
-languageCode: en-us
+locale: en-us
 title: KenjiE20's Game Servers
 
 enableEmoji: true
